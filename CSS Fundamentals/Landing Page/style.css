@@ -1,0 +1,187 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+}
+/* Header for the webpage */
+.header{
+    /* spaces out the nav bar and the h1 */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color:white;
+    background-color: #1f2937;
+    padding: 40px;
+}
+
+/* nav bar styled to hide the link but still be interactable  */
+nav ul{
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+
+nav ul li a{
+    padding: 10px;
+    text-decoration: none;
+    color : white;
+}
+/* hero section  */
+.hero{
+    /* puts two section in row form */
+        /* think as putting two containers next  to eachother */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    gap:20px;
+    background-color:#1f2937 ;
+    color : white;
+    padding:40px;
+}
+/* adjusts left sides text */
+.hero .left{
+    font-size:18px;
+}
+/* button */
+button .b1{
+    background-color:#3882F6;
+    border-radius:5px;
+}
+/* creates the dummy image body aligned on the right side */
+.hero .right{
+    border:60px;
+    padding: 20px;
+    width:600px;
+    height:200px;
+    background-color: grey;
+    text-align:center;
+    align-content:center;
+}
+
+
+/* random info */
+/* splits info in stacked fashion  */
+.randomInfo{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color:black;
+    background-color: white;
+    padding: 20px;
+    align-content: center;
+    text-align: center;
+}
+
+.info {
+    /* aligns the img box with the text box */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Adjust this value as needed */
+}
+/* formats the img box and text box  */
+.imgBox, .boxText{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; /* Add this line */
+}
+.imgBox .box{
+    display:flex;
+    border:5px solid black;
+    width:100px;
+    height:100px;
+    border-radius: 5px;
+    padding:20px;
+    
+}
+
+.boxText .text{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px;
+}
+
+
+/* customer review section */
+.review{
+    /* aligns the text properly and adjusts the sections size */
+    display:flex;
+    font-style:italic;
+    font-size:30px;
+    background-color:lightgrey;
+    flex-direction: column;
+    text-align: center;
+    padding:100px;
+}
+
+/* customers name formatted and aligned */
+.review #quote2{
+    font-style:normal;
+    text-align: right;
+    font-weight:bold;
+}
+
+/* creates the new section for the call to action */
+.call2action{
+    background-color: white;
+    color:white;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    padding: 60px;
+
+}
+
+/* call to action header is made bold */
+#c2a1{
+    font-weight:bold;
+}
+/* creates the blue box  */
+.call2action .textBox{
+    background-color: #3882F6;
+    padding: 30px;
+    border-radius: 5px;
+    display:flex;
+    flex-direction:row;
+    width:700px;
+    gap:200px;
+}
+
+/* sign up button  */
+button{
+    background-color:#3882F6;
+    border-color:white;
+    border-radius:5px;
+    
+}
+
+/* hides link  */
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* creates the footer */
+.footer{
+    /* declares the color of the footer and readjusts text */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color:white;
+    background-color: #1f2937;
+    padding: 20px;
+    text-align: center;
+    
+}
+/* resizes copyright symbol */
+img{
+    width:1%;
+    height:auto;
+    color:white;
+}
