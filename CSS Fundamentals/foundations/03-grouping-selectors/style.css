@@ -1,0 +1,15 @@
+button{
+    font-size:28px;
+}
+
+#one{
+    font-family: Arial, Helvetica, sans-serif ;
+    color:white;
+    background-color: black;
+    font-weight:bold;
+}
+
+#two{
+    font-family:'Times New Roman', Times, sans-serif;
+    background-color: yellow;
+}
